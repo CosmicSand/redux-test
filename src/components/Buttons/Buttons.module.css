@@ -1,0 +1,24 @@
+.btn {
+  background-color: #4caf50;
+  border: 2px solid yellowgreen;
+
+  color: white;
+  padding: 10px 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline-color: none;
+}
+.btn:hover,
+.btn:active {
+  background-color: #45a049;
+  border-color: yellow;
+}
+
+.icons {
+  color: yellow;
+  height: 32px;
+}

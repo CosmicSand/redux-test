@@ -1,0 +1,19 @@
+.inp {
+  width: 360px;
+  height: 40px;
+  border: 2px solid yellowgreen;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+label {
+  font-size: 20px;
+  font-weight: bold;
+  color: yellowgreen;
+  display: block;
+  text-align: left;
+}
+.inpCont {
+  width: fit-content;
+}
