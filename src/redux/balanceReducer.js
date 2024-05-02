@@ -13,6 +13,12 @@ export const withdraw = (amount) => {
     payload: amount,
   };
 };
+export const setInpAmount = (amount) => {
+  return {
+    type: "balance/setInpAmount",
+    payload: amount,
+  };
+};
 
 export const balanceReducer = (state = initialState.balance, action) => {
   console.log(action);
@@ -26,6 +32,11 @@ export const balanceReducer = (state = initialState.balance, action) => {
       return {
         ...state,
         value: state.value - action.payload,
+      };
+    case "balance/setInpAmount":
+      return {
+        ...state,
+        inpAmount: action.payload,
       };
     default:
       return state;

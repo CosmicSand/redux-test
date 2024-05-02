@@ -4,7 +4,7 @@ import { balanceReducer } from "./balanceReducer";
 export const initialState = {
   balance: {
     value: 100,
-    a: 5,
+    inpAmount: 0,
   },
 };
 
